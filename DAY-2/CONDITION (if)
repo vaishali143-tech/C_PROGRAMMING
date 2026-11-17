@@ -1,0 +1,94 @@
+FIND POSITIVE/NEGATIVE USING if CONDITION
+
+#include <stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a>0)
+    printf("number is %d:positive",a);
+    else if(a<0)
+    printf("number is %d:negative",a);
+    else
+    printf("number is 0");
+}
+
+GREATERS B/W TWO NUMBERS
+
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d%d,&a,&b");
+    if(a>b)
+    printf("a");
+    else
+    printf("b");
+}
+
+GREATERS B/W THREE NUMBERS
+
+#include <stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if((a>b)&&(a>c))
+    printf("a");
+    else if(b>c)
+    printf("b");
+    else
+    printf("c");
+}
+
+DIVISIBLE OR NOT
+
+#include <stdio.h>
+int main()
+{
+    int a;
+    scanf("%d,&a");
+    if(a%3 ==0)
+    printf("divisible by 3");
+    else
+    printf(" not divisible by 3");
+}
+
+ODD or EVEN
+
+#include <stdio.h>
+int main()
+{
+    int a;
+    scanf("%d,&a");
+    if(a%2 ==0)
+    printf("odd");
+    else
+    printf("even");
+}
+
+FIND LEAP YEAR
+
+#include <stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if((a%400 ==0)||(a%4 ==0 && a%100!=0))
+    printf("leap year");
+    else
+    printf("not a leap year");
+}
+
+PRINT STRING IF THE STATEMENT IS TRUE
+
+#include <stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a%3 ==0)
+    printf("hi");
+    if(a%15 ==0)
+    printf("hello");
+}
