@@ -1,0 +1,31 @@
+INTEGER INPUT DISPLAY
+  
+  # include <stdio.h> 
+int main()
+    {int a;
+    scanf("%d",&a);
+    printf("%d",a);
+    }
+
+STRING OUTPUT DISPLAY
+  
+#include<stdio.h>
+int main()
+{
+    printf("vaisahli");
+}
+
+STRING WITH ESCAPE SEQUENCE
+
+  #include<stdio.h>
+int main()
+{
+    printf("slow and \"steady\" wins the race");
+}
+
+/*#include <stdio.h>
+int main()
+{ 
+    printf("\\n");
+}*/
+
