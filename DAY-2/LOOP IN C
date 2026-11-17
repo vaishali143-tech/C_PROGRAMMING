@@ -1,0 +1,118 @@
+LOOPS in C:
+   Whenever we want to run a set of instruction for n numbers of time we are use loops
+  So,the loop has two types
+  1) Entry control loops
+  2) exit control loop
+  
+  //entry control loops//
+  1)for
+  2)while
+
+  for LOOP:
+
+  FIND NETURALS NUMBERS USING for LOOP:
+
+  #include <stdio.h>
+int main()
+{
+     int i,n;
+     scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    printf("%d\n",i);
+}
+
+SUM OF 2 NUMBER(INPUT FROM USER)
+
+  #include <stdio.h>
+int main()
+{
+    int n1,n2,sum=0,i;
+    scanf("%d%d",&n1,&n2);
+    for(i=n1;i<=n2;i++)
+    sum=sum+i;
+    printf("%d",sum);
+}
+
+FIND FACTERS USING for LOOP:
+
+  #include <stdio.h>
+int main()
+{
+    int n,i;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {if(n%i==0)
+    printf("%d",i);
+        
+    }
+}
+
+CREATE MULTIPLICATION TABLE USING forLOOP:
+
+#include <stdio.h>
+int main()
+{
+    int n,t,i;
+    scanf("%d%d",&n,&t);
+    for(i=1;i<=n;i++)
+    printf("%d * %d = %d\n",i,t,i*t);
+}
+
+FIND PRIME NUMBERS USING for LOOP:
+
+ #include <stdio.h>
+int main()
+{
+    int n,i,c=0;
+    scanf("%d",&n);
+    if(n==1)
+    {
+        printf("Neither prime nor composite number");
+        return 0;
+    }
+    for(i=2;i<=n/2;i++)
+    {
+        if(n%i==0)
+        {c++;
+        printf("not a prime number");
+        break;
+    }
+}
+
+  
+if (c==0)
+printf("it is a prime number");
+}
+
+while LOOP:
+
+USING while LOOP COUNT THE INTEGERS
+
+  #include <stdio.h>
+int main()
+{
+   int n,c=0;
+    scanf("%d",&n);
+    while(n!=0)
+    {
+        n=n/10;
+        c++;
+    }
+printf("%d",c);    
+}
+
+USING while LOOP FOR SUM OF NUMBERS
+
+  #include <stdio.h>
+int main()
+{
+    int n,sum=0,d;
+    scanf("%d",&n);
+    while(n!=0)
+    {
+        d=n%10;
+        sum=sum=d;
+        n=n/10;
+    }
+    printf("%d",sum);
+}
