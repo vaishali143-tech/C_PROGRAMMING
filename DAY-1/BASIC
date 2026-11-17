@@ -7,6 +7,25 @@ int main()
     printf("%d",a);
     }
 
+FLOAT INPUT DISPLAY
+#include <stdio.h>
+int main()
+{
+    float a;
+    scanf("%f",&a);
+    printf("%f",a);
+}
+
+FLOAT WITHOUT ZEROS
+
+#include <stdio.h>
+int main()
+{
+    float a;
+    scanf("%f",&a);
+    printf("%f",a);
+}
+
 STRING OUTPUT DISPLAY
   
 #include<stdio.h>
@@ -23,9 +42,42 @@ int main()
     printf("slow and \"steady\" wins the race");
 }
 
-/*#include <stdio.h>
+EMPTY STRING
+#include <stdio.h>
 int main()
 { 
     printf("\\n");
-}*/
+}
+
+SUM OF TWO INT(or)NUMBERS
+
+#include <stdio.h>
+int main()
+{
+    int a,b,sum=0;
+    scanf("%d%d",&a,&b);
+    sum=a+b;
+    printf("sum is :%d",sum);
+}
+
+SUM OF THREE NUMBERS
+
+#include <stdio.h>
+int main()
+{
+    int a,b,c,sum=0;
+    scanf("%d%d%d",&a,&b,&c);
+    sum=a+b+c;
+    printf("sum is :%d",sum);
+}
+
+UNIT DIGIT VALUE
+
+#include <stdio.h>
+int main()
+{
+  int n;
+  scanf("%d",&n);
+  printf("%d",n%10);
+}
 
